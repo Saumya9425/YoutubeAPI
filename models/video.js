@@ -15,7 +15,7 @@ const VideoSchema = new mongoose.Schema({
         type:String,
     },
     createdAt:{
-        type:Date,
+        type:String,
     },
 })
 

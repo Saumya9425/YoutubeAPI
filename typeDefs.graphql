@@ -1,0 +1,24 @@
+const { gql } = require('apollo-server-express')
+
+const typeDefs = gql`
+
+   type video{
+    id:ID
+    title:String
+    description:String
+    url:String
+    channel:String
+    createdAt:String
+   }
+  
+   type Query{
+
+    getvideo(id:ID) : video
+
+    getlatestvideos(limit:Int,offset:Int): [video]
+   }
+
+`;
+
+
+module.exports = typeDefs;
