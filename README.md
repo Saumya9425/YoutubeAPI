@@ -51,3 +51,14 @@ The postman collections are https://www.getpostman.com/collections/a1976af0159ab
 
 Copy the link https://youtubegraphqlapi.herokuapp.com/graphql and run the queries in postman collection to get the response.
 
+
+## Tech Stack
+
+Node.js
+
+GraphQl
+
+MongoDB
+
+
+
