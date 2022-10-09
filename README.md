@@ -9,7 +9,7 @@ This project is used to fetch latest videos from the youtube data api v3 and ret
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`YOUTUBE_URL` = https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=30&order=date&publishedAfter=2022-01-10T21%3A14%3A33Z&q=nba&relevanceLanguage=en&key=AIzaSyBwkiHIvjmPDU5iokBsRCcqiwy0hKIN_3c
+`YOUTUBE_URL` = https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&order=date&publishedAfter=2022-01-10T21%3A14%3A33Z&q=nba&relevanceLanguage=en&key=AIzaSyD0Z0E_VSpAMqGkMAP1Ocl-DKbxumd_tME
 or your predefined search query using your apikey if the specified api key is exhausted.
 
 `MONGO_URL` = Your Mongo Atlas Connection String
