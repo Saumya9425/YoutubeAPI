@@ -1,7 +1,6 @@
 const { gql } = require('apollo-server-express')
 
 const typeDefs = gql`
-
    type video{
     id:ID
     title:String
@@ -12,9 +11,8 @@ const typeDefs = gql`
    }
   
    type Query{
-
     getvideo(id:ID) : video
-
+    
     getlatestvideos(limit:Int,offset:Int): [video]
    }
 
