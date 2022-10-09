@@ -28,17 +28,14 @@ async function startserver()
 
 startserver();
 
-// app.get('/',async(req,res)=>{
-//     await fetchvideos();
-//     res.send('Hello from express');
-// })
-
-
-
 app.listen(process.env.PORT,()=>{
     console.log(`Server is running at port ${PORT}`)
 })
 
+//Fetching the latest videos continuously after fixed interval of 10 seconds
+setInterval(async function hello(){
+    await fetchvideos();
+},10000)
 
 
 
